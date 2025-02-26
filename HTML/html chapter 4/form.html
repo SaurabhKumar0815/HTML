@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form html</title>
+</head>
+
+<body>
+    <div>
+        <h1> Happy jurney to our trip </h1>
+        <form action="form.php">
+            <input type="Text" placeholder="Enter your name"><br>
+            <h1>Enter your section</h1>
+            <label for="sectionidA">
+                <input type="radio" value="section A"name="section" id="sectionidA"> section A
+                </label><br>
+                <label for="sectionidB">
+                <input type="radio" value="section B"name="section" id="sectionidB"> section B
+                </label><br>
+                <label for="sectionidC">
+                <input type="radio" value="section C"name="section" id="sectionidC"> section C
+            </label><br>
+            <h4> You want to order food  click the checkbox</h2>
+            <input type="checkbox" id="foodcanteen" name="want Food canteen card" class ="red"><br>
+            <h4>Enter the booking ticket date and time</h4>
+            <input type="datetime" name="datetime" id="datetime" /><br>
+            <h4>Enter traveling time</h3>
+            <input type="time" name="time" id="time" /><br>
+            <h4>choose your car at a travel</h4>
+
+            <select name="car" id="car">select your car
+            <option value="BMW">BMW</option>
+            <option value="RANGE ROVER">RANGE ROVER</option>
+            </select><br>
+            <h4>what are you seeing movie</h4>
+            <select name="music" id="music">select your movies
+                <option value="Hindi">Hindi</option>
+                <option value="English">English</option>
+                </select>
+                
+            <h4>Enter your email address</h4>
+            <input type="email" name="email" id="email" /><br>
+            <h4>Enter your password</h4>
+            <input type="password" name="password" id="password" />
+            <br>
+            <br><h4>Please Discribe(*_*) </h4>
+            <textarea name="explain" id="explain" rows="10"placeholder="Why want to traveling the place"></textarea>
+
+            <h4>you want to submit form Or reset click here:-</h4>
+            <input type="submit" value="submit" />
+            <input type="reset" value="reset" />
+           
+        </form>
+    </div>
+</body>
+
+</html>
